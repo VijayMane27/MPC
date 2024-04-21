@@ -7,7 +7,7 @@ const NavLink = ({ href, title }) => {
       spy={true}
       smooth={true}
       duration={500}
-      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"
+      className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-sm rounded md:p-0 hover:text-white cursor-pointer"
     >
       {title}
     </ScrollLink>
