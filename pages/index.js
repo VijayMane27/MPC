@@ -16,14 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col bg-[#121212]">
-  <CustomNavbar />
-  <HomeVideoSection/>
-  <AboutUs/>
-  <OurServices/>
-</main>
+        <CustomNavbar />
+        <HomeVideoSection />
+        <AboutUs />
+        <OurServices />
+      </main>
       <Footer />
-      
     </div>
   );
 }
-
