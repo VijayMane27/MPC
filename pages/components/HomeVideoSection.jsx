@@ -48,13 +48,16 @@ const HomeVideoSection = () => {
   return (
     <div className="relative h-screen overflow-hidden flex">
       {/* Background Image */}
-      <div className="absolute inset-0 overflow-hidden flex-1">
+      <div
+        id="background-img"
+        className="absolute inset-0 overflow-hidden flex-1"
+      >
         <Image
           src="/images/massage.jpg"
           alt="background image"
           layout="fill"
           objectFit="cover"
-          style={{ marginTop: "82px" }}
+          objectPosition="center top"
         />
       </div>
 

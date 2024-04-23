@@ -9,9 +9,7 @@ const AboutUs = () => {
     let timer;
 
     if (isHovered) {
-      timer = setTimeout(() => {
-        setIsAnimated(true);
-      }, 500); // Delaying the animation start after 500ms
+      setIsAnimated(true);
     } else {
       setIsAnimated(false);
     }
@@ -61,31 +59,37 @@ const AboutUs = () => {
 
           {/* Text */}
           <div className="flex-grow w-1/2 text-left max-w-[50%]">
-            <p className="mb-4">
-              Sports medical rehabilitation is a specialized field that focuses
-              on the prevention, evaluation, treatment, and rehabilitation of
-              injuries related to sports and physical activities. It plays a
-              crucial role in helping athletes and active individuals recover
-              from injuries, improve their performance, and return to their
-              respective sports or activities safely and efficiently.
-            </p>
-
-            <p className="mb-4">
-              The primary goal of sports medical rehabilitation is to restore an
-              individual's function, mobility, strength, and endurance following
-              an injury or surgery. This involves a comprehensive approach that
-              may include various therapeutic interventions, exercise programs,
-              and manual techniques tailored to the specific needs and goals of
-              the individual.
-            </p>
-
             <p>
-              The rehabilitation process typically begins with a thorough
-              evaluation by a sports medicine physician or physiotherapist to
-              assess the extent of the injury and develop a personalized
-              treatment plan.
+              Welcome to My Pain Clinic, a premier establishment under the
+              esteemed banner of M/s. Global Body Fix, setting the gold standard
+              for pain management and rehabilitation across the Asia-Pacific
+              region.
             </p>
-
+            <p>
+              Nestled in the vibrant heart of Mumbai's Bandra-West, our clinic
+              is more than
+            </p>
+            <p>
+              just a healthcare facility; it's a sanctuary of advanced solutions
+              and compassionate care.We seamlessly blend cutting-edge technology
+              in
+            </p>
+            <p>
+              Physiotherapy and Sports Rehabilitation with a commitment to your
+              well-being.
+            </p>
+            <p>
+              My Pain Clinic stands at the forefront of clinical excellence,
+              offering innovative pain management and rehabilitation solutions.
+            </p>
+            <p>
+              and more recently with desktop publishing software like Aldus
+              PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+              and more recently with desktop publishing software like Aldus
+              PageMaker including versions of Lorem Ipsum.
+            </p>
             {/* Buttons */}
             <div className="mt-6">
               <button className="bg-gradient-to-r from-purple-500 to-cyan-400 text-white px-6 py-2 rounded-md mr-4 hover:opacity-80">
